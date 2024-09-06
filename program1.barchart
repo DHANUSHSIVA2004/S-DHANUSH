@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+# Sample data
+categories = ['Male', 'Female', 'Non-Binary']
+counts = [45, 55, 10]
+
+# Create bar chart
+plt.figure(figsize=(8, 6))
+plt.bar(categories, counts, color=['blue', 'pink', 'green'])
+plt.xlabel('Gender')
+plt.ylabel('Count')
+plt.title('Distribution of Gender in Population')
+plt.show()
